@@ -30,13 +30,13 @@ public class AppstoreBootApplicationTests {
 
 	private List<Contact> filteredContacts = new ArrayList<>();
 
-	@Test
-	public void saveTest() {
-		Contact contact1 = new Contact();
-		contact1.setFullName("TestContact");
-		contactRepository.save(contact1);
-		Assert.assertNotNull(contactRepository.findContactsByFullName("TestContact"));
-	}
+//	@Test
+//	public void saveTest() {
+//		Contact contact1 = new Contact();
+//		contact1.setFullName("TestContact");
+//		contactRepository.save(contact1);
+//		Assert.assertNotNull(contactRepository.findContactsByFullName("TestContact"));
+//	}
 
 	@Test
 	public void negativeTest() {

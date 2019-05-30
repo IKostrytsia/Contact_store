@@ -11,3 +11,7 @@ App docker image build and run:
   -> mvn clean install dockerfile:build
   -> docker run -p 8080:8080 -t springio/appstore-boot
 
+30/05/19 Added:
+	RepositoryRestController
+	Async
+	CompletableFuture
